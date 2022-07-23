@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.line{
+    background-color: #117050;
+    height: 15px;
+}
+
+.container{
+    max-width: 1140px;
+    margin:auto;
+}
+
+.header--area{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+.header--left img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.header--search form{
+    display: flex;
+}
+
+.header--search input{
+    font-size: 16px;
+    padding: 7px 10px;
+    border: 1px solid #999;
+    outline: 0;
+    width: 100%;
+    max-width: 220px;
+}
+.header--search button {
+    border: 1px solid #999;
+    border-left: 0;
+    border-right: 0;
+    margin-left: -30px;
+    cursor: pointer;
+    background-color: #FFF;
+}
+.header--search button img{
+    width: 16px;
+    height: 16px;
+}
